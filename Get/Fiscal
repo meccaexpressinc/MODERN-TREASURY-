@@ -1,0 +1,4 @@
+curl --request POST \
+  -u ORGANIZATION_ID:6167fbb0-665b-497f-b7a2-2bc2f7c17968 \
+  -H "Idempotency-Key: 812b850d-d25d-45a9-8480-5a984bb27c05" \
+  --url https://app.moderntreasury.com/api/<https://api.fiscaldata.treasury.gov/services/api/fiscal_service/>
