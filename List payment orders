@@ -1,0 +1,5 @@
+# List payment orders
+curl --request GET \
+  -u ORGANIZATION_ID: ALC20180002 \
+  --url https://app.moderntreasury.com/api/payment_orders \
+  -H 'Content-Type: application/json'
